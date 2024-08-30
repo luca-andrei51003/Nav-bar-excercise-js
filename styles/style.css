@@ -1,0 +1,96 @@
+body{
+    margin:0;
+    height: 100vh;
+    background-image: url('../elements/floor_bg_1.jpg');
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+}
+#section01{
+    height: 100%;
+    width: 40%;
+    align-items: center;
+
+}
+#center{
+    height: 100%;
+    width: 50%;
+}
+#section02{
+    height: 100%;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#button_02{
+    height: 70%;
+    width: 100%;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    width: 80%;
+    min-height: 15px;  
+    flex-grow: 1;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    border: 0.5px solid rgba(255,255,255, 0.2); 
+    border-radius: 4px;
+    background-color: rgba(193, 163, 173, 0.147);
+    color: aliceblue;
+}
+.button:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.button:active{
+    background-color: #D5DFE5;
+}
+#logOut{
+    height: 3%;
+    min-height: 7px;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+#logo
+{
+    height: 4%;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+#back{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 20%;
+    border: 0.5px solid white; 
+}
+#heart{
+    margin-bottom: 20%;
+    width: 50%;
+   
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    text-wrap: wrap;
+}
+#heart:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+#heart:active{
+    color: white;
+}
+#card{
+    align-self: center;
+    height: 4%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
